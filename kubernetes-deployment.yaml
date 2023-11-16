@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-assignment-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: jenkins-assignment
+  template:
+    metadata:
+      labels:
+        app: jenkins-assignment
+    spec:
+      containers:
+      - name: jenkins-assignment
+        image: amoghbari/jenkins-assignment:v1
+        ports:
+        - containerPort: 80
+        
