@@ -15,8 +15,6 @@ spec:
       containers:
       - name: jenkins-assignment
         image: amoghbari/jenkins-assignment:v1
-      imagePullSecrets:
-      - name: regcred
         ports:
         - containerPort: 8080
         
