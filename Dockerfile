@@ -19,7 +19,7 @@ WORKDIR /app
 # Copy the Python script into the container
 RUN git clone https://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@github.com/AmoghBari/Assignment6.git /app
 
-EXPOSE 80
+EXPOSE 8080
 
 # Run the Python script when the container launches
 CMD ["python", "monitor.py"]

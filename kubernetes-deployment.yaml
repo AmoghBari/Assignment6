@@ -16,5 +16,5 @@ spec:
       - name: jenkins-assignment
         image: amoghbari/jenkins-assignment:v1
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         
