@@ -6,11 +6,11 @@ pipeline {
             steps {
                 script {
                     // Build Docker image
-                    sh 'docker build -t amoghbari/jenkins-assignment:v4 .'
+                    sh 'docker build -t amoghbari/jenkins-assignment:v1 .'
                     
                     // Push Docker image to private registry
                     sh 'docker login -u amoghbari -p A@mogh1993'
-                    sh 'docker push amoghbari/jenkins-assignment:v4'
+                    sh 'docker push amoghbari/jenkins-assignment:v1'
                 }
             }
         }
