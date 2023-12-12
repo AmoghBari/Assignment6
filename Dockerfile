@@ -4,7 +4,7 @@ FROM python:3.8-slim
 
 # Install kubectl dependencies
 RUN apt-get update && apt-get install -y curl
-
+RUN pip install psutil
 RUN apt-get install -y git
 
 # Install kubectl
