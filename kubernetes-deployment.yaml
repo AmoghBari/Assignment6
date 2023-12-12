@@ -17,4 +17,6 @@ spec:
         image: amoghbari/jenkins-assignment:v1
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: my-registry-secret
         
