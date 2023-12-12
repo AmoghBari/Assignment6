@@ -17,7 +17,7 @@ RUN rm -rf /app/*
 WORKDIR /app
 
 # Copy the Python script into the container
-RUN git clone https://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@github.com/AmoghBari/Assignment6.git /app
+RUN git clone https://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@github.com/AmoghBari/Assignment6.git /app
 
 EXPOSE 8080
 
