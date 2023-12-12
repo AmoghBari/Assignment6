@@ -22,4 +22,4 @@ RUN git clone https://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@github.com/AmoghB
 EXPOSE 8080
 
 # Run the Python script when the container launches
-CMD ["python", "monitor.py", "sh", "-c", "while true; do sleep 10; done"]
+CMD ["python", "monitor.py", "sh", "-c"]
