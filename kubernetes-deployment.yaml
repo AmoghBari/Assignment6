@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: jenkins-assignment
-        image: amoghbari/jenkins-assignment:v4
+        image: amoghbari/jenkins-assignment:v5
         ports:
         - containerPort: 8080
